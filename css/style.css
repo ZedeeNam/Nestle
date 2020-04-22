@@ -1,0 +1,679 @@
+*{
+	box-sizing: border-box;
+}
+html{
+	
+
+    font-family: 'Archivo Black', sans-serif;
+
+    font-family: 'Archivo Narrow', sans-serif;
+
+    font-family: 'Archivo', sans-serif;
+
+    font-family: 'Lato', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'PT Sans', sans-serif;
+
+    font-family: 'Ramabhadra', sans-serif;
+
+    font-family: 'Roboto Condensed', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Source Sans Pro', sans-serif;
+
+    font-family: 'PT Sans Narrow', sans-serif;
+
+
+}
+
+a{
+	text-decoration: none;
+	transition: all .3s ease-in-out;
+}
+
+a:hover{
+	color: #8a3c6e;
+}
+
+/*header area*/
+header{
+	
+}
+
+header .header-background {
+    background: url(../img/header-img.jpg);
+	/*background-image: url("../header-img.jpg");*/
+	background-repeat: no-repeat, repeat;
+	background-position: left;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-attachment: local; 
+	width: 100%;
+	height: 100vh;
+}
+
+/*---------------------------------------------------------------------*/
+/*mobile header*/
+
+header .mobile-navigation-area {
+    text-align: center;
+    color: white;
+    background: #ed0c6e;
+    font-size: 28px;
+}
+
+header .mobile-logo-area {
+    display: flex;
+    width: 100%;
+}
+
+header .mobile-logo-area i {
+    margin: auto;
+    width: 20%;
+}
+
+header .mobile-logo-area img {
+    width: /*60%*/ 262.2px;
+    display: block;
+}
+
+header .mobile-login-area {
+	width: 87%;
+	display: flex;
+	margin: auto;
+	justify-content: space-between;
+	padding-bottom: 3%;
+}
+
+header .mobile-header-txt {
+    width: 75%;
+    margin: auto;
+    font-family: 'PT Sans', sans-serif;
+}
+
+header .mobile-header-txt-container {
+    color: #0168b7;
+    padding: /*40% 0*/ 40% 0 0;
+    text-align: center;
+}
+
+header .mobile-header-txt-container h2 {
+    font-size: 32px;
+}
+
+header .mobile-header-txt-container h1 {
+    font-size: 40px;
+    padding: 4% 0;
+    font-weight: 700;
+}
+
+header .mobile-header-txt-container button {
+    border: none;
+    color: white;
+    background: #ed0c6e;
+    border-radius: 9px;
+    padding: 10px 19px;
+    font-size: 17px;
+}
+
+section .shop-cover {
+	margin-top: 10%;
+	margin-bottom: 10%;
+	font-family: 'PT Sans', sans-serif;
+}
+
+section .category-area {
+    width: 85%;
+    margin: auto;
+}
+
+section .category-1 {
+    padding: 15.8px;
+    cursor: pointer;
+    border-top: 1px solid gray;
+	border-radius: 4px 4px 0 0;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+}
+
+section .category-2 {
+    padding: 15.8px;
+    border: 1px solid gray;
+	cursor: pointer;
+}
+
+section .category-3 {
+    padding: 15.8px;
+    cursor: pointer;
+    border-bottom: 1px solid gray;
+	border-radius: 0 0 4px 4px;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+}
+
+section .category-1:hover {
+    background-color: gray;
+}
+
+section .category-2:hover {
+    background-color: gray;
+}
+
+section .category-3:hover {
+    background-color: gray;
+}
+
+section .shop-area {
+    width: 85%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+section .shop-product {
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 4%;
+    margin-top: 5%;
+}
+
+section .mineral-bottle img {
+    width: 100%;
+}
+
+section .mineral-bottle h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #0168b7;
+}
+
+section .price-area {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7%;
+}
+
+section .price {
+    margin: auto 0;
+}
+
+section .price p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ed0c6e;
+}
+
+section .buy button {
+    border: 3px solid #ed0c6e;
+    border-radius: 5px;
+	padding: 8px 16px;
+	background: white;
+	color: #ed0c6e;
+	font-size: 15px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+section .buy button:hover {
+    border: 3px solid #ed0c6e;
+	background: #ed0c6e;
+	color: white;
+}
+
+section .buy button i {
+    padding-right: 7px;
+}
+
+section .how-cover {
+    background: #ed0c6e;
+    margin-top: 10%;
+    /*margin-bottom: 10%;
+    padding-bottom: 15%;*/
+}
+
+section .how-cover h2 {
+    text-align: center;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+    padding-top: 15%;
+    font-family: 'PT Sans', sans-serif;
+}
+
+section .how-section {
+    /*margin-bottom: 10%;*/
+    padding-bottom: 15%;
+}
+
+section .how-to {
+    width: 85%;
+    margin: auto;
+    color: white;
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+	padding-top: 15%;
+}
+
+section .how-to h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+section .how-to p {
+    font-size: 16px;
+}
+
+footer .footer-cover {
+    /*background: #0168b7;*/
+    padding: 15% 0 12%;
+     background: rgb(5,65,111);
+background: -moz-linear-gradient(0deg, rgba(5,65,111,1) 0%, rgba(1,104,183,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(5,65,111,1) 0%, rgba(1,104,183,1) 100%);
+background: linear-gradient(0deg, rgba(5,65,111,1) 0%, rgba(1,104,183,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#05416f",endColorstr="#0168b7",GradientType=1); 
+}
+
+footer .useful-links {
+    width: 85%;
+    margin: auto;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+footer .company h5 {
+    font-size: 21px;
+}
+
+footer .company ul {
+    padding: 4% 0 13%;
+}
+
+footer .company ul li a {
+    color: lightgray;
+    line-height: 1.5;
+}
+
+footer .company p {
+    padding: 4%;
+    color: lightgray;
+}
+
+footer .app-store {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+	margin: auto;
+}
+
+footer .app-store img {
+    width: 120px;
+    height: 40px;
+    margin: 4% 0;
+    cursor: pointer;
+}
+
+footer .social {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4% auto 13%;
+    width: 80%;
+}
+
+footer .social .fab {
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    background: white;
+    color: #ed0c6e;
+    line-height: 40px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+footer .social .fab:hover {
+    background: #ed0c6e;
+    color: white;
+}
+
+footer hr {
+    width: 85%;
+    border: none;
+    color: white;
+    height: 2px;
+    background: gray;
+}
+
+footer .copyright {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    color: lightgray;
+    margin-top: 12%;
+    line-height: 1.5;
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+
+
+/*=====================================================================*/
+@media (min-width: 500px) {
+
+	header .header-background {
+		background-position: center !important;
+	}	
+
+	header .mobile-header-txt-container {
+	    padding: /*25.5% 0*/ 25.5% 0 0;
+	}
+
+	footer .app-store {
+	    width: 80%;
+	}
+
+	footer .social {
+	    width: 70%;
+	}
+
+}
+
+
+
+
+
+
+/*=====================================================================*/
+@media (min-width: 600px) {
+
+	section .row1 {
+	    width: 100%;
+	    display: flex;
+	    justify-content: space-between;
+	}
+
+	section .row2 {
+	    width: 100%;
+	    display: flex;
+	    justify-content: space-between;
+	}
+
+	section .shop-product{
+		width: 49%;
+	}
+
+	footer .useful-links {
+	    display: flex;
+	    width: 97%;
+	    justify-content: space-between;
+	}
+
+	footer .company {
+	    width: 33%;
+	}
+
+	footer .app-store {
+    	display: block;
+	}
+
+	footer .social {
+	    width: 100%;
+	}
+
+	footer .footer-cover {
+	    padding: 10% 0;
+	}
+
+	footer .copyright {
+	    margin-top: 10%;
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/*=================================================================*/
+@media (min-width: 834px) {
+
+	header .mobile-navigation-area {
+	    display: none;
+	}
+
+	/*header .mobile-header-txt {
+	    display: none;
+	}*/
+
+	header .navigation-area {
+	    display: block !important;
+		width: 100%;
+		margin: auto;
+	}
+
+	header .logo-area {
+	    width: 282.667px;
+	    display: block;
+		margin: auto;
+	}
+
+	header .logo-area img {
+	    width: 100%;
+	    display: block;
+	}
+
+	header .menu-area {
+	    text-align: center;
+		width: 50%;
+		margin: auto 0;
+		font-family: 'PT Sans', sans-serif;
+		font-size: 18px;
+		font-weight: 600;
+		display: inline-block;
+	}
+
+	header .menu-area a {
+	    color: #0168b7;
+	}
+
+	header .menu-area a:hover {
+	    color: #ed0c6e;
+	}
+
+	header .menu-area ul {
+	    display: inline-flex;
+	    width: 100%;
+	    justify-content: center;
+	}
+
+	header .menu-area ul li {
+	    display: inline-block;
+	    margin: 4%;
+	}
+
+	header .search-area {
+		display: /*inline-flex*/ block;
+	    margin: auto;
+	    text-align: right;
+	    width: 50%;
+	    color: #ed0c6e;
+	    float: right;
+	}
+
+	header .search-area p {
+	    margin: 4%;
+	    font-size: 18px;
+		font-weight: 600;
+		display: inline;
+	}
+
+	header .search-area i {
+	    margin: 4%;
+	    cursor: pointer;
+	}
+
+	header .mobile-header-txt {
+	    width: 100%;
+	}
+
+	header .mobile-header-txt-container {
+	    width: 50%;
+	    margin: auto 0 auto auto;
+	    color: #0168b7;
+	    text-align: left;
+	    padding: /*13.7% 0*/ 13.7% 0 0;
+	}
+	
+	section .shop-cover {
+	    width: 98%;
+	    margin-left: auto;
+	    margin-right: auto;
+	    display: flex;
+	    justify-content: space-between;
+	}
+
+	section .category-area {
+	    width: 31%;
+	    margin: 0;
+	    border: none;
+	}
+
+	section .shop-area {
+	    margin: 0;
+		width: 67%;
+	}
+
+	section .row1 {
+	    display: flex;
+	    justify-content: space-between;
+	    margin-bottom: 3%;
+	}
+
+	section .shop-product {
+	    margin: 0;
+	    width: 49.5%;
+	}
+
+	section .row2 {
+	    display: flex;
+	    justify-content: space-between;
+	    margin-bottom: 3%;
+	}
+
+	section .how-cover  h2 {
+	    padding-top: 8%;
+	}
+
+	section .how-section {
+	    display: flex;
+		justify-content: flex-start;
+		width: 98%;
+		margin: auto;
+	}
+
+	section .how-to {
+	    padding-top: 8%;
+	    margin: .5%;
+	}
+
+	footer .footer-cover {
+	    padding: 10% 0 7%;
+	}
+
+	footer .app-store {
+	    display: flex;
+	    width: 100%;
+	}
+
+	footer .social {
+	    width: 80%;
+	    justify-content: space-between;
+	}
+
+	footer .copyright {
+	    margin-top: 7%;
+	}
+
+}
+
+
+
+
+/*===============================================================*/
+@media (min-width: 1200px) {
+
+	header .navigation-area {
+	    width: /*75%*/ 1200px;
+	    display: flex !important;
+	}
+	
+	header .logo-area {
+	    /*width: 25%;*/
+	}
+
+	header .menu-area {
+		width: 60%;
+	}
+
+	header .search-area {
+	    width: 30%;
+	}
+
+	header .mobile-header-txt {
+	    width: 75%;
+	}
+
+	header .mobile-header-txt-container {
+	    padding: 13% 0;
+	}
+
+	section .shop-cover {
+	    width: 1200px;
+	}
+	
+	section .how-cover h2 {
+	    padding-top: 7%;
+	}
+
+	section .how-section {
+	    width: 1200px;
+	    padding-bottom: 7%;
+	}
+
+	section .how-to {
+	    padding-top: 7%;
+	}
+
+	footer .footer-cover {
+	    padding: 7% 0 3%;
+	}
+
+	footer .useful-links {
+	    width: 1200px;
+	}
+
+	footer .social {
+    	width: 70%;
+	}
+
+	footer hr {
+    	width: 1200px;
+	}
+	
+	footer .copyright {
+	    margin-top: 3%;
+	}
+
+}
